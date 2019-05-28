@@ -1,0 +1,43 @@
+# .//Linux_x86_64/bin/netMHCII -a HLA-DRB10301 -p -f ../Modified_Protein_Sequence/DFVLAILPLDDLKALFND
+# Thu Nov  3 14:09:26 2016
+# User: j
+# PWD : /home/j/Desktop/Prediction Tool/netMHCII-2.2
+# Host: Linux J 4.2.0-30-generic x86_64
+# -a       HLA-DRB10301         Allele name
+# -p       1                    Use peptide input
+# -f       ../Modified_Protein_Sequence/DFVLAILPLDDLKALFND File name with input
+# Command line parameters set to:
+#	[-a filename]        HLA-DRB10301         Allele name
+#	[-d filename]        .//Linux_x86_64      Directory for executables and data
+#	[-t float]           -99.900002           Threshold for output
+#	[-s]                 0                    Sort output on descending affinity
+#	[-w]                 0                    w option for webface
+#	[-f filename]        ../Modified_Protein_Sequence/DFVLAILPLDDLKALFND File name with input
+#	[-tdir filename]     ../netMHCIITemp      Temporary directory
+#	[-wt float]          500.000000           Threshold for weak binders
+#	[-st float]          50.000000            Threshold for strong binders
+#	[-l int]             15                   Peptide length
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode
+#	[-list]              0                    List alleles covered by NetMHCII method
+#	[-p]                 1                    Use peptide input
+#	[-xP1]               0                    Exclude P1 amino acids encoding
+#	[-thrfmt filename]   .//Linux_x86_64/data/threshold%s/%s.thr Format for threshold filenames
+#	[-exthr]             0                    Exclude % Threshold calibration
+# Number of PEP entries read 1 from file ../Modified_Protein_Sequence/DFVLAILPLDDLKALFND
+# Input is in PEPTIDE format
+
+# Peptide length 15
+	NetMHCII version 2.2.
+
+Strong binder threshold  50.00. Weak binder threshold 500.00.
+
+------------------------------------------------------------------------------------------------
+      Allele  pos          peptide       core 1-log50k(aff) affinity(nM)  MeasuredAff Bind Level  %Random     Identity
+------------------------------------------------------------------------------------------------
+HLA-DRB10301    0 DFVLAILPLDDLKALFND  PLDDLKALF         0.676         33.3        0.000         SB     4.00      PEPLIST
+------------------------------------------------------------------------------------------------
+
+Allele: HLA-DRB10301. Number of high binders 1. Number of weak binders 0. Number of peptides 1
+
+------------------------------------------------------------------------------------------------
